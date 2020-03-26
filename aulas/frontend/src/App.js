@@ -1,10 +1,14 @@
 import React from 'react';
+import Logon from './pages/Logon';
+
+import "./global.css";
 
 // JSX (JS - XML)
 
 function App() {
+
   return (
-    <h1>Hello OmniStack!</h1>
+    <Logon />
   );
 }
 
